@@ -1,0 +1,115 @@
+.body {
+    background-color: whitesmoke;
+}
+
+
+.jumbotron{
+    padding-top: 0px;
+}
+
+h1{
+  font-family: 'Fredericka the Great', cursive;
+    font-size: 62px;
+    color: teal;
+ 
+}
+
+h2 {
+  font-family: 'Fredericka the Great', cursive;
+    font-size: 40px;
+    color: teal;
+}   
+
+p {
+    font-family: 'livvic', sans-serif;
+}
+.quote{
+    font-style: italic;
+    color: rgb(2, 77, 77);
+}
+  
+
+.row {
+    justify-content: center;
+    margin-bottom: 20px;
+    margin: auto;
+}
+
+
+.center{
+    display: block;
+    margin-top: 0px;
+    
+}
+
+.hero{
+    padding: 50px;
+    display: grid;
+    background-color:whitesmoke;
+
+}
+.heroText{
+    padding: 25px 75px 25px 75px;
+    color: rgb(1, 1, 48);
+}
+
+
+.card {
+    /* Add shadows to create the "card" effect */
+    background-color: rgb(1, 1, 48);
+    color: whitesmoke;
+    box-shadow: 0 4px 8px 0 #2F4F4F;
+    transition: 0.3s;
+  }
+  
+  /* On mouse-over, add a deeper shadow */
+  .card:hover {
+    box-shadow: 0 8px 16px 0 #DAA520;
+  }
+  
+  /* Add some padding inside the card container */
+  .container {
+    padding: 2px 16px;
+  }
+
+  #card1{
+    background: linear-gradient(to top left, #009999 0%, #66ccff 100%);
+  }
+
+  #card2{
+    background: linear-gradient(to top right, #009999 0%, #66ccff 100%);
+  }
+
+  #card3{
+    background: linear-gradient(to bottom left, #009999 0%, #66ccff 100%);
+  }
+
+  #card4{
+    background: linear-gradient(to bottom right, #009999 0%, #66ccff 100%);
+  }
+  .btn{
+      color: #009933;
+  }
+
+  .contTable{
+      font-family: "livvic", sans-serif;
+      border: 50px;
+      padding: 2px 16px;
+      box-shadow: 0 8px 16px 0 #2F4F4F;
+      background: whitesmoke;
+  }
+
+  .fa {
+    padding: 20px;
+    font-size: 30px;
+    width: 30px;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    color: #DAA520;
+  }
+  .footer {
+    margin: auto;
+    background-color: teal;
+  
+  }
