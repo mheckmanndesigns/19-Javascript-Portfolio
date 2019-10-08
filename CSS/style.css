@@ -20,6 +20,10 @@ h2 {
     color: teal;
 }   
 
+h5 {
+    color: black;
+}
+
 p {
     font-family: 'livvic', sans-serif;
 }
@@ -35,6 +39,16 @@ p {
     margin: auto;
 }
 
+.horizontal-rule {
+    border-top: 6px solid black;
+}
+
+.vline {
+    border-left: 2px solid black;
+    height: 50px;
+   margin-left: 16%;
+
+}
 
 .center{
     display: block;
