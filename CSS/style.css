@@ -20,10 +20,13 @@ h2 {
     color: teal;
 }   
 
-.container {
+h5 {
     color: black;
 }
 
+.modal-content {
+  color: black;
+}
 p {
     font-family: 'livvic', sans-serif;
 }
@@ -32,7 +35,83 @@ p {
     color: rgb(2, 77, 77);
 }
   
+span a {
+	font-size: 18px;
+	color: #cccccc;
+	text-decoration: none;
+	margin: 0 10px;
+	transition: all 0.4s ease-in-out;
+	&:hover {
+		color: #ffffff;
+	}
+}
 
+@keyframes float {
+	0% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+	50% {
+		box-shadow: 0 25px 15px 0px rgba(0,0,0,0.2);
+		transform: translatey(-20px);
+	}
+	100% {
+		box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+		transform: translatey(0px);
+	}
+}
+
+.container {
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+}
+
+.avatar {
+	width: 350px;
+	height: 350px;
+	box-sizing: border-box;
+	border: 5px black solid;
+	border-radius: 50%;
+	overflow: hidden;
+	box-shadow: 0 5px 15px 0px rgba(0,0,0,0.6);
+	transform: translatey(0px);
+	animation: float 6s ease-in-out infinite;
+}
+
+.avatar img {
+  width: 100%;
+  height: auto;
+}
+
+  
+.btn span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.btn span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.btn:hover span {
+  padding-right: 25px;
+}
+
+.btn:hover span:after {
+  opacity: 1;
+  right: 0;
+}
 .row {
     justify-content: center;
     margin-bottom: 20px;
