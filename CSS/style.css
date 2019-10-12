@@ -1,26 +1,49 @@
-.body {
-    background-color: whitesmoke;
-}
 
-
-.jumbotron{
+.jumbotron-fluid{
     padding-top: 0px;
+    display:flex;
+    justify-content: space-between;
+    color: #A2bb45;
 }
+.navbar-dark {
+  background-color: #172d38;
+}
+.bg-dark {
+  background-color: #172d38;
+  color: whitesmoke;
+
+}
+.hero1 {
+  
+    position: relative;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+}
+
+.centered {
+  position: absolute;
+  top: 60%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
 
 h1{
-  font-family: 'Fredericka the Great', cursive;
+  font-family: 'Special Elite', cursive;
     font-size: 62px;
-    color: teal;
+    color: #172d38
  
 }
 
 h2 {
-  font-family: 'Fredericka the Great', cursive;
+    font-family: 'Special Elite', cursive;
     font-size: 40px;
-    color: teal;
+    color:#A2bb45;
 }   
 
 h5 {
+    font-family: 'Special Elite', cursive;
     color: black;
 }
 
@@ -28,11 +51,17 @@ h5 {
   color: black;
 }
 p {
-    font-family: 'livvic', sans-serif;
+  font-family: 'Oswald', sans-serif;
 }
 .quote{
-    font-style: italic;
-    color: rgb(2, 77, 77);
+    font-family: 'Special Elite', cursive;
+    font-size: 32px;
+    color: #abbb7a;
+}
+div.absolute {
+  position: absolute;
+  top: 10px;
+  margin-left: 20%;
 }
   
 span a {
@@ -41,9 +70,6 @@ span a {
 	text-decoration: none;
 	margin: 0 10px;
 	transition: all 0.4s ease-in-out;
-	&:hover {
-		color: #ffffff;
-	}
 }
 
 @keyframes float {
@@ -125,26 +151,33 @@ span a {
 .vline {
     border-left: 2px solid black;
     height: 50px;
-   margin-left: 16%;
+    margin-left: 16%;
 
 }
 
-.center{
-    display: block;
-    margin-top: 0px;
-    
-}
 
 .hero{
     padding: 50px;
     display: grid;
-    background-color:whitesmoke;
+    background-color:#172d38;
 
 }
 .heroText{
     padding: 25px 75px 25px 75px;
-    color: rgb(1, 1, 48);
+    color: #A2bb45;
 }
+.center {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 50%;
+ }
+ .center1 {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+ }
 
 
 .card {
@@ -161,31 +194,33 @@ span a {
   }
   
   /* Add some padding inside the card container */
-  .container {
+  .flex-container {
+    background-color: #172d38;
     padding: 2px 16px;
   }
 
-  #card1{
-    background: linear-gradient(to top left, #009999 0%, #66ccff 100%);
+  #card1{ 
+    background: #abbb75;
   }
 
   #card2{
-    background: linear-gradient(to top right, #009999 0%, #66ccff 100%);
+    background: #abbb7a;
   }
 
   #card3{
-    background: linear-gradient(to bottom left, #009999 0%, #66ccff 100%);
+    background:  #abbb7a;
   }
 
   #card4{
-    background: linear-gradient(to bottom right, #009999 0%, #66ccff 100%);
+    background:  #abbb7a;
   }
   .btn{
-      color: #009933;
+      color: whitesmoke;
   }
+  
 
   .contTable{
-      font-family: "livvic", sans-serif;
+    font-family: 'Oswald', sans-serif;
       border: 50px;
       padding: 2px 16px;
       box-shadow: 0 8px 16px 0 #2F4F4F;
@@ -199,10 +234,25 @@ span a {
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
-    color: #DAA520;
+    color: #A2bb45;
   }
   .footer {
     margin: auto;
-    background-color: teal;
+    background-color: #172d38;
   
+  }
+
+
+    
+  
+
+  @media only screen and (max-width: 600px) {
+    div.hero1 {
+        font-size: 14px;
+    }
+  }
+  @media only screen and (max-width: 600px) {
+   p.quote {
+        font-size: 12px;
+    }
   }
