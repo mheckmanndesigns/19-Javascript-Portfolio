@@ -246,12 +246,12 @@ span a {
     
   
 
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 768px) {
     div.hero1 {
         font-size: 14px;
     }
   }
-  @media only screen and (max-width: 900px) {
+  @media only screen and (max-width: 768px) {
    p.quote {
         font-size: 12px;
     }
